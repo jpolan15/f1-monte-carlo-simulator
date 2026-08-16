@@ -5,10 +5,10 @@
 [![C++20](https://img.shields.io/badge/C++-20-red.svg)](https://isocpp.org/)
 [![OpenMP & SIMD](https://img.shields.io/badge/acceleration-OpenMP%20%2B%20AVX2%2FAVX--512-orange.svg)](https://www.openmp.org/)
 [![FastF1](https://img.shields.io/badge/data-FastF1%20Telemetry-green.svg)](https://github.com/theOehrly/Fast-F1)
-[![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red.svg?logo=youtube)](https://www.youtube.com/@jonathanpolanco)
+[![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red.svg?logo=youtube)](https://youtu.be/3igJGATh75U)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **📺 Watch the Full Build Video on YouTube:** [Building an F1 Monte Carlo Strategy Simulator: Python Data Layer & C++ SIMD Engine](https://www.youtube.com/@jonathanpolanco)  
+> **📺 Watch the Full Build Video on YouTube:** [Building an F1 Monte Carlo Strategy Simulator: Python Data Layer & C++ SIMD Engine](https://youtu.be/3igJGATh75U)  
 > **Can we predict the 2026 Monaco Grand Prix winner?**  
 > This repository contains the complete production code for the F1 Monte Carlo Simulator featured in the flagship YouTube video. We pull official 5Hz telemetry and qualifying lap times via **FastF1**, structure the physics parameters into contiguous C-compatible memory, and invoke a multi-threaded **C++ SIMD engine** via a **zero-copy ctypes FFI bridge** to simulate **10,000,000 full 78-lap Monaco races in under 8 seconds** (over **60× faster** than pure Python).
 
