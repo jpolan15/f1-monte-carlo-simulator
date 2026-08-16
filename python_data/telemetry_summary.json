@@ -1,0 +1,125 @@
+{
+  "circuit": "Circuit de Monaco",
+  "season_year": 2026,
+  "track_length_m": 3337,
+  "total_grid_size": 10,
+  "drivers": {
+    "LEC": {
+      "name": "LEC",
+      "team": "Ferrari",
+      "lap_time_s": 70.063,
+      "compound": "SOFT",
+      "top_speed_kph": 290.0,
+      "avg_throttle_pct": 60.08,
+      "time_at_full_throttle_pct": 20.34,
+      "heavy_braking_events": 126,
+      "sample_points_count": 531
+    },
+    "PIA": {
+      "name": "PIA",
+      "team": "McLaren",
+      "lap_time_s": 70.129,
+      "compound": "SOFT",
+      "top_speed_kph": 286.0,
+      "avg_throttle_pct": 57.07,
+      "time_at_full_throttle_pct": 10.69,
+      "heavy_braking_events": 123,
+      "sample_points_count": 524
+    },
+    "SAI": {
+      "name": "SAI",
+      "team": "Williams",
+      "lap_time_s": 71.362,
+      "compound": "MEDIUM",
+      "top_speed_kph": 287.0,
+      "avg_throttle_pct": 56.3,
+      "time_at_full_throttle_pct": 42.99,
+      "heavy_braking_events": 167,
+      "sample_points_count": 542
+    },
+    "NOR": {
+      "name": "NOR",
+      "team": "McLaren",
+      "lap_time_s": 69.954,
+      "compound": "SOFT",
+      "top_speed_kph": 289.0,
+      "avg_throttle_pct": 54.75,
+      "time_at_full_throttle_pct": 23.61,
+      "heavy_braking_events": 125,
+      "sample_points_count": 521
+    },
+    "RUS": {
+      "name": "RUS",
+      "team": "Mercedes",
+      "lap_time_s": 71.507,
+      "compound": "SOFT",
+      "top_speed_kph": 288.0,
+      "avg_throttle_pct": 57.5,
+      "time_at_full_throttle_pct": 41.25,
+      "heavy_braking_events": 141,
+      "sample_points_count": 543
+    },
+    "VER": {
+      "name": "VER",
+      "team": "Red Bull Racing",
+      "lap_time_s": 70.669,
+      "compound": "SOFT",
+      "top_speed_kph": 288.0,
+      "avg_throttle_pct": 57.76,
+      "time_at_full_throttle_pct": 42.29,
+      "heavy_braking_events": 143,
+      "sample_points_count": 525
+    },
+    "HAM": {
+      "name": "HAM",
+      "team": "Ferrari",
+      "lap_time_s": 70.382,
+      "compound": "SOFT",
+      "top_speed_kph": 289.0,
+      "avg_throttle_pct": 61.17,
+      "time_at_full_throttle_pct": 23.43,
+      "heavy_braking_events": 153,
+      "sample_points_count": 542
+    },
+    "TSU": {
+      "name": "TSU",
+      "team": "Red Bull Racing",
+      "lap_time_s": 71.415,
+      "compound": "SOFT",
+      "top_speed_kph": 286.0,
+      "avg_throttle_pct": 58.74,
+      "time_at_full_throttle_pct": 44.68,
+      "heavy_braking_events": 132,
+      "sample_points_count": 526
+    },
+    "ALB": {
+      "name": "ALB",
+      "team": "Williams",
+      "lap_time_s": 70.732,
+      "compound": "SOFT",
+      "top_speed_kph": 292.0,
+      "avg_throttle_pct": 56.57,
+      "time_at_full_throttle_pct": 40.82,
+      "heavy_braking_events": 147,
+      "sample_points_count": 534
+    },
+    "GAS": {
+      "name": "GAS",
+      "team": "Alpine",
+      "lap_time_s": 71.994,
+      "compound": "SOFT",
+      "top_speed_kph": 285.0,
+      "avg_throttle_pct": 57.12,
+      "time_at_full_throttle_pct": 42.41,
+      "heavy_braking_events": 124,
+      "sample_points_count": 540
+    }
+  },
+  "strategy_physics_constants": {
+    "monaco_pit_lane_delta_s": 22.4,
+    "tire_deg_penalty_per_lap_soft_s": 0.082,
+    "tire_deg_penalty_per_lap_medium_s": 0.045,
+    "tire_deg_penalty_per_lap_hard_s": 0.021,
+    "safety_car_probability": 0.68
+  }
+}
